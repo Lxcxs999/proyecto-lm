@@ -7,36 +7,41 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-/*Estructura de la página principal con grid*/
+/*Estructura de la página principal*/
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
 
 body{
-    display: grid;
-    grid-template-rows: 80px 1fr;
-    min-height: 100vh;
-    background-color: rgb(175, 241, 219);
+    background-color: #ffffff;
 }
 
+.snap-page{
+    height: 100vh;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
 
  /*Estructura de la barra de navegación*/
 .nav{
-    background-color: white  ;
-    color: black;
+    background-color:#ffffff;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 25px;
+    padding: 10px;
 
-    position: sticky;
+    position: fixed;
     top: 0;
-
-    transition: all 0.3s ease;
-    background-color: rgba(255, 255, 255, 0.7);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .nav-links{
@@ -44,9 +49,21 @@ body{
     gap: 30px;
 }
 
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
 .logo{
-height: 80px;
+height: 60px;
 width: auto;
+}
+
+.user, .cart{
+    height: 30px;
+    width: auto;
+    margin-left: 20px;
 }
 
  /*Estructura del contenedor del hero*/
@@ -54,7 +71,6 @@ width: auto;
 .hero-container{
     position: relative;
     width: 100%;
-    height: 80vh;
 
     display: flex;
     justify-content: center;
@@ -76,7 +92,6 @@ width: auto;
 .hero-text{
     color: white;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .hero-text h1{
@@ -89,14 +104,84 @@ width: auto;
     bottom: 0;
 }
 
+
+/*Estructura del contenedor de los productos más vendidos*/
+
 .topsellers-section{
+    height: 100vh;
+    padding-block: 15vh;
     text-align: center;
 }
 
 .topsellers-container{
+    height: 100%;
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-
+    flex-direction: row;
 }   
+
+.topsellers-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.topseller-image{
+    width: auto;
+    height: 100%;
+    max-height: 250px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.topseller-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 80%;
+    flex: 0 1 250px;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+    padding: 40px;
+    position: relative;
+}
+
+.topseller-item button{
+    margin-top: auto;
+}
+
+.buy-button{
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+  border: 1px solid #4CAF50;
+}
+
+.buy-button:hover {
+  letter-spacing: 3px;
+  background-color: #2E7D32;
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(46, 125, 50) 0px 7px 29px 0px;
+}
+
+.buy-button:active {
+  letter-spacing: 3px;
+  background-color: #1B5E20;
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(27, 94, 32) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
