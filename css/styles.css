@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+
+
+/*Configuración general*/
+
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    scrollbar-width: 6px;
+    scrollbar-color: #22c55e #dcfce7;
+}
+
+/* Legacy WebKit — older Chrome/Edge/Safari, radius, borders & shadows */
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: #dcfce7;
+  border-radius: 20px;
+  padding: 2px;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #bbf7d0;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #86efac;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #22c55e;
+  border-radius: 20px;
+  min-height: 30px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #16a34a;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #15803d;
+}
+
+*::-webkit-scrollbar-button {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+
+/*Estructura de la página principal*/
+
+.home{
+    background-color: #ffffff;
+}
+
+ /*Estructura de la barra de navegación*/
+nav{
+    background-color:rgba(224, 250, 211, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: transform 0.7s ease;
+}
+
+.nav-hidden {
+    transform: translateY(-100%);
+}
+
+.nav-links{
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-weight: 500;
+}
+
+.logo{
+height: 50px;
+width: auto;
+}
+
+.user, .cart{
+    height: 30px;
+    width: auto;
+    margin-left: 20px;
+}
+
+ /*Estructura del contenedor del hero*/
+
+.hero-container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+    filter: blur(4px);
+}
+
+.hero-container > button{
+    margin-top: auto;
+}
+
+.hero-text{
+    color: white;
+    text-align: center;
+    font-size: clamp(2rem, 5vw, 3em);
+}
+
+.hero-text h1{
+    font-size: clamp(2rem, 5vw, 3em);
+    margin-bottom: 20px;
+}
+
+
+/*Estructura del contenedor de los productos más vendidos*/
+
+.topsellers-section{
+    display: flex;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-block: 10vh;
+}
+
+.topseller-image{
+    width: auto;
+    max-height: 150px;
+}
+
+.topsellers-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 400px;
+    gap: 30px;
+    margin-top: 10vh;
+    }
+
+.topseller-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: auto;
+    height: 100%;
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 10%;
+    padding: 20px;
+    flex: 0 1 300px;
+}
+
+.topseller-image{
+    width: auto;
+    max-height: 150px;
+    border-radius: 10px;
+}
+
+.buy-button{
+  margin-top: auto;
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+  border: 1px solid #4CAF50;
+}
+
+.buy-button:hover {
+  letter-spacing: 3px;
+  background-color: #2E7D32;
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(46, 125, 50) 0px 7px 29px 0px;
+}
+
+.buy-button:active {
+  letter-spacing: 3px;
+  background-color: #1B5E20;
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(27, 94, 32) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+
+
+
+/*Estructura de la página de productos*/
+.productos{
+    background-image: url(../images/topsellers_background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/*Estructura de la página de contacto*/
+.contacto-wrapper{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.formulario-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/*Estructura de footer*/
+
+footer{
+    background-color:rgba(224, 250, 211, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}

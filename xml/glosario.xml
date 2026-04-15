@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glosario SYSTEM "glosario.dtd">
+<?xml-stylesheet type="text/xsl" href="glosario.xsl"?>
+<glosario>
+    <termino>
+        <nombre>Esqueje</nombre>
+        <definicion>Fragmento de tallo, hoja o raíz que se corta de una planta para introducirlo en sustrato y formar una nueva planta.</definicion>
+    </termino>
+    <termino>
+        <nombre>Sustrato</nombre>
+        <definicion>Material sólido distinto de la tierra natural, natural o sintético, que sirve de soporte a la planta y permite el desarrollo de sus raíces.</definicion>
+    </termino>
+    <termino>
+        <nombre>Riego por inmersión</nombre>
+        <definicion>Técnica que consiste en sumergir la maceta en un recipiente con agua para que la tierra absorba la humedad por los agujeros de drenaje.</definicion>
+    </termino>
+</glosario>

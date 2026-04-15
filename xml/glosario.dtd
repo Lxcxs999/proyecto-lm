@@ -1,0 +1,4 @@
+<!ELEMENT glosario (termino+)>
+<!ELEMENT termino (nombre, definicion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT definicion (#PCDATA)>
