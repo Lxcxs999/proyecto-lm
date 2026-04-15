@@ -3,15 +3,399 @@
 <?xml-stylesheet type="text/xsl" href="glosario.xsl"?>
 <glosario>
     <termino>
+        <nombre>Abono</nombre>
+        <definicion>Sustancia orgánica o inorgánica que se añade a la tierra para aumentar su fertilidad y mejorar el crecimiento de las plantas.</definicion>
+    </termino>
+    <termino>
+        <nombre>Acodo</nombre>
+        <definicion>Método de propagación que consiste en hacer desarrollar raíces a un tallo sin separarlo de la planta madre.</definicion>
+    </termino>
+    <termino>
+        <nombre>Aclimatación</nombre>
+        <definicion>Proceso de adaptación gradual de una planta a un nuevo entorno, especialmente en cambios de luz o temperatura.</definicion>
+    </termino>
+    <termino>
+        <nombre>Adventicia (raíz)</nombre>
+        <definicion>Raíz que crece desde un lugar inusual de la planta, como el tallo o las hojas.</definicion>
+    </termino>
+    <termino>
+        <nombre>Aireación</nombre>
+        <definicion>Proceso de aflojar el suelo para permitir que el aire penetre hasta las raíces.</definicion>
+    </termino>
+    <termino>
+        <nombre>Alcalino</nombre>
+        <definicion>Suelo o sustrato con un pH superior a 7.0, contrario a los suelos ácidos.</definicion>
+    </termino>
+    <termino>
+        <nombre>Angiosperma</nombre>
+        <definicion>Planta que produce flores y semillas encerradas dentro de un fruto (ej. rosales, manzanos).</definicion>
+    </termino>
+    <termino>
+        <nombre>Anual</nombre>
+        <definicion>Planta que completa su ciclo de vida (germinación, floración y muerte) en una sola temporada o año.</definicion>
+    </termino>
+    <termino>
+        <nombre>Ápice</nombre>
+        <definicion>Punta o extremo superior de una hoja, tallo o raíz por donde la planta crece activamente.</definicion>
+    </termino>
+    <termino>
+        <nombre>Arbusto</nombre>
+        <definicion>Planta leñosa de cierto porte que, a diferencia de los árboles, no se eleva sobre un solo tronco, sino que se ramifica desde la base.</definicion>
+    </termino>
+    <termino>
+        <nombre>Axila</nombre>
+        <definicion>Ángulo superior que forma el pecíolo de una hoja al unirse con el tallo. De ahí nacen los brotes axilares.</definicion>
+    </termino>
+    <termino>
+        <nombre>Bactericida</nombre>
+        <definicion>Sustancia química utilizada para combatir enfermedades causadas por bacterias en las plantas.</definicion>
+    </termino>
+    <termino>
+        <nombre>Bianual</nombre>
+        <definicion>Planta cuyo ciclo de vida dura dos años: el primero desarrolla follaje y el segundo florece y muere.</definicion>
+    </termino>
+    <termino>
+        <nombre>Bonsái</nombre>
+        <definicion>Técnica de origen japonés que consiste en cultivar árboles y arbustos reduciendo su tamaño mediante podas y control de raíces.</definicion>
+    </termino>
+    <termino>
+        <nombre>Bráctea</nombre>
+        <definicion>Hoja modificada que se encuentra cerca de la flor, a menudo coloreada para atraer polinizadores (ej. la flor de pascua).</definicion>
+    </termino>
+    <termino>
+        <nombre>Bulbo</nombre>
+        <definicion>Órgano subterráneo de almacenamiento de nutrientes, formado por hojas carnosas superpuestas (ej. cebolla, tulipán).</definicion>
+    </termino>
+    <termino>
+        <nombre>Cactácea</nombre>
+        <definicion>Familia de plantas suculentas, generalmente espinosas y adaptadas a climas áridos.</definicion>
+    </termino>
+    <termino>
+        <nombre>Caducifolio</nombre>
+        <definicion>Árbol o arbusto que pierde todas sus hojas durante una época del año, normalmente en otoño/invierno.</definicion>
+    </termino>
+    <termino>
+        <nombre>Cáliz</nombre>
+        <definicion>Conjunto de sépalos (hojitas verdes) que protegen el capullo de la flor antes de abrirse.</definicion>
+    </termino>
+    <termino>
+        <nombre>Capilaridad</nombre>
+        <definicion>Capacidad del agua para ascender a través de los pequeños poros del suelo en contra de la gravedad.</definicion>
+    </termino>
+    <termino>
+        <nombre>Clorofila</nombre>
+        <definicion>Pigmento verde presente en las plantas, esencial para realizar el proceso de la fotosíntesis.</definicion>
+    </termino>
+    <termino>
+        <nombre>Clorosis</nombre>
+        <definicion>Amarilleo de las hojas por falta de clorofila, a menudo causado por carencia de hierro o nitrógeno.</definicion>
+    </termino>
+    <termino>
+        <nombre>Cochinilla</nombre>
+        <definicion>Insecto parásito común que chupa la savia de las plantas, creando manchas blancas algodonosas o escudos marrones.</definicion>
+    </termino>
+    <termino>
+        <nombre>Compost</nombre>
+        <definicion>Abono natural rico en nutrientes resultante de la descomposición controlada de materia orgánica.</definicion>
+    </termino>
+    <termino>
+        <nombre>Corona</nombre>
+        <definicion>Zona de la planta donde el tallo se une con las raíces, generalmente al nivel del suelo.</definicion>
+    </termino>
+    <termino>
+        <nombre>Cotiledón</nombre>
+        <definicion>La primera hoja o par de hojas que emergen de la semilla al germinar.</definicion>
+    </termino>
+    <termino>
+        <nombre>Criptógama</nombre>
+        <definicion>Planta que no produce flores ni semillas y se reproduce por esporas (ej. helechos, musgos).</definicion>
+    </termino>
+    <termino>
+        <nombre>Cuello</nombre>
+        <definicion>Punto exacto de intersección entre el tallo y la raíz de una planta.</definicion>
+    </termino>
+    <termino>
+        <nombre>Cultivar</nombre>
+        <definicion>Variedad de planta que ha sido obtenida y mantenida en cultivo por el ser humano.</definicion>
+    </termino>
+    <termino>
+        <nombre>Defoliación</nombre>
+        <definicion>Caída prematura de las hojas de una planta por enfermedad, estrés hídrico o acción humana.</definicion>
+    </termino>
+    <termino>
+        <nombre>Dicotiledónea</nombre>
+        <definicion>Planta cuya semilla contiene dos cotiledones (primeras hojas) al germinar.</definicion>
+    </termino>
+    <termino>
+        <nombre>Drenaje</nombre>
+        <definicion>Capacidad de un sustrato o maceta para evacuar el exceso de agua y evitar que las raíces se pudran.</definicion>
+    </termino>
+    <termino>
+        <nombre>Endémica</nombre>
+        <definicion>Especie de planta que es originaria y exclusiva de una zona geográfica muy concreta.</definicion>
+    </termino>
+    <termino>
+        <nombre>Enraizador</nombre>
+        <definicion>Producto a base de hormonas que estimula la aparición rápida de raíces en los esquejes.</definicion>
+    </termino>
+    <termino>
+        <nombre>Epífita</nombre>
+        <definicion>Planta que crece sobre otro árbol o estructura usándolo solo como soporte, no como parásito (ej. orquídeas, tillandsias).</definicion>
+    </termino>
+    <termino>
+        <nombre>Escarificación</nombre>
+        <definicion>Proceso físico o químico para raspar o debilitar la cáscara dura de una semilla para facilitar su germinación.</definicion>
+    </termino>
+    <termino>
+        <nombre>Espora</nombre>
+        <definicion>Célula reproductiva de hongos y plantas sin flores que puede desarrollar un nuevo individuo sin necesidad de fecundación.</definicion>
+    </termino>
+    <termino>
         <nombre>Esqueje</nombre>
         <definicion>Fragmento de tallo, hoja o raíz que se corta de una planta para introducirlo en sustrato y formar una nueva planta.</definicion>
     </termino>
     <termino>
-        <nombre>Sustrato</nombre>
-        <definicion>Material sólido distinto de la tierra natural, natural o sintético, que sirve de soporte a la planta y permite el desarrollo de sus raíces.</definicion>
+        <nombre>Estambre</nombre>
+        <definicion>Órgano reproductor masculino de la flor, encargado de producir el polen.</definicion>
     </termino>
     <termino>
-        <nombre>Riego por inmersión</nombre>
-        <definicion>Técnica que consiste en sumergir la maceta en un recipiente con agua para que la tierra absorba la humedad por los agujeros de drenaje.</definicion>
+        <nombre>Estigma</nombre>
+        <definicion>Parte del órgano femenino de la flor (pistilo) diseñada para recibir el polen durante la polinización.</definicion>
+    </termino>
+    <termino>
+        <nombre>Estolón</nombre>
+        <definicion>Tallo que crece horizontalmente sobre el suelo y que emite raíces y nuevas plantas en sus nudos (ej. fresas).</definicion>
+    </termino>
+    <termino>
+        <nombre>Estratificación</nombre>
+        <definicion>Tratamiento de semillas simulando condiciones invernales (frío y humedad) para romper su latencia.</definicion>
+    </termino>
+    <termino>
+        <nombre>Etiolación</nombre>
+        <definicion>Crecimiento alargado, débil y pálido de una planta debido a la falta prolongada de luz.</definicion>
+    </termino>
+    <termino>
+        <nombre>Evapotranspiración</nombre>
+        <definicion>Pérdida conjunta de agua por la evaporación del suelo y la transpiración de las hojas de la planta.</definicion>
+    </termino>
+    <termino>
+        <nombre>Fanerógama</nombre>
+        <definicion>Planta que posee flores y se reproduce mediante semillas visibles.</definicion>
+    </termino>
+    <termino>
+        <nombre>Fecundación</nombre>
+        <definicion>Unión del polen con el óvulo dentro de la flor para dar origen a la semilla y al fruto.</definicion>
+    </termino>
+    <termino>
+        <nombre>Fertilizante</nombre>
+        <definicion>Producto rico en nutrientes que se aplica a las plantas para estimular su desarrollo (puede ser químico u orgánico).</definicion>
+    </termino>
+    <termino>
+        <nombre>Fibra de coco</nombre>
+        <definicion>Sustrato ligero y esponjoso obtenido de la cáscara de coco, excelente para retener agua y airear las raíces.</definicion>
+    </termino>
+    <termino>
+        <nombre>Fitopatología</nombre>
+        <definicion>Ciencia que estudia las enfermedades de las plantas causadas por bacterias, hongos, virus o nematodos.</definicion>
+    </termino>
+    <termino>
+        <nombre>Fitohormona</nombre>
+        <definicion>Hormona vegetal natural que regula el crecimiento, desarrollo y respuestas de la planta al entorno.</definicion>
+    </termino>
+    <termino>
+        <nombre>Floema</nombre>
+        <definicion>Tejido conductor de las plantas encargado de transportar la savia elaborada (alimento) desde las hojas al resto de la planta.</definicion>
+    </termino>
+    <termino>
+        <nombre>Floración</nombre>
+        <definicion>Proceso y época en la que una planta despliega sus flores.</definicion>
+    </termino>
+    <termino>
+        <nombre>Follaje</nombre>
+        <definicion>Conjunto de hojas y ramas de una planta, árbol o arbusto.</definicion>
+    </termino>
+    <termino>
+        <nombre>Fotosíntesis</nombre>
+        <definicion>Proceso por el cual las plantas transforman la energía del sol, agua y CO2 en alimento (azúcares) y oxígeno.</definicion>
+    </termino>
+    <termino>
+        <nombre>Fronda</nombre>
+        <definicion>Hoja grande y dividida típica de los helechos y de algunas palmeras.</definicion>
+    </termino>
+    <termino>
+        <nombre>Fungicida</nombre>
+        <definicion>Producto diseñado para prevenir, eliminar o inhibir el crecimiento de hongos dañinos en las plantas.</definicion>
+    </termino>
+    <termino>
+        <nombre>Germinación</nombre>
+        <definicion>Proceso mediante el cual una semilla despierta de su letargo y desarrolla su primera raíz y brote.</definicion>
+    </termino>
+    <termino>
+        <nombre>Gimnosperma</nombre>
+        <definicion>Planta que produce semillas descubiertas, no encerradas en un fruto (ej. pinos, abetos).</definicion>
+    </termino>
+    <termino>
+        <nombre>Gotero</nombre>
+        <definicion>Dispositivo utilizado en el riego por goteo que libera agua gota a gota directamente en la base de la planta.</definicion>
+    </termino>
+    <termino>
+        <nombre>Guano</nombre>
+        <definicion>Abono orgánico de altísima calidad procedente de los excrementos de aves marinas o murciélagos.</definicion>
+    </termino>
+    <termino>
+        <nombre>Haz</nombre>
+        <definicion>Cara superior de la hoja de una planta, que generalmente recibe la luz directa y es más brillante.</definicion>
+    </termino>
+    <termino>
+        <nombre>Helecho</nombre>
+        <definicion>Planta sin flores ni semillas que prefiere ambientes muy húmedos y sombreados.</definicion>
+    </termino>
+    <termino>
+        <nombre>Herbácea</nombre>
+        <definicion>Planta cuyos tallos no desarrollan tejido leñoso (madera) y son tiernos y verdes.</definicion>
+    </termino>
+    <termino>
+        <nombre>Herbicida</nombre>
+        <definicion>Sustancia química utilizada para destruir plantas no deseadas o "malas hierbas".</definicion>
+    </termino>
+    <termino>
+        <nombre>Híbrido</nombre>
+        <definicion>Planta resultante del cruce genético entre dos especies o variedades diferentes.</definicion>
+    </termino>
+    <termino>
+        <nombre>Hidroponía</nombre>
+        <definicion>Técnica de cultivo en la que las plantas crecen sin tierra, utilizando agua con soluciones minerales.</definicion>
+    </termino>
+    <termino>
+        <nombre>Humus</nombre>
+        <definicion>Materia orgánica altamente descompuesta en el suelo, de color oscuro, rica en nutrientes.</definicion>
+    </termino>
+    <termino>
+        <nombre>Inflorescencia</nombre>
+        <definicion>Disposición de un grupo de flores sobre una misma rama o tallo floral (ej. las hortensias).</definicion>
+    </termino>
+    <termino>
+        <nombre>Injerto</nombre>
+        <definicion>Unión de una parte de una planta (púa) sobre otra (patrón) para que crezcan como un solo individuo.</definicion>
+    </termino>
+    <termino>
+        <nombre>Insecticida</nombre>
+        <definicion>Producto químico u orgánico destinado a combatir plagas de insectos.</definicion>
+    </termino>
+    <termino>
+        <nombre>Invernadero</nombre>
+        <definicion>Estructura cerrada recubierta de material transparente que retiene el calor para proteger cultivos.</definicion>
+    </termino>
+    <termino>
+        <nombre>Latencia</nombre>
+        <definicion>Estado de reposo temporal de semillas o plantas durante condiciones adversas (como el invierno).</definicion>
+    </termino>
+    <termino>
+        <nombre>Limo</nombre>
+        <definicion>Tipo de suelo de partículas medias, más finas que la arena pero más gruesas que la arcilla.</definicion>
+    </termino>
+    <termino>
+        <nombre>Macolla</nombre>
+        <definicion>Conjunto de tallos, flores o espigas que nacen del mismo pie o base de la planta.</definicion>
+    </termino>
+    <termino>
+        <nombre>Macronutriente</nombre>
+        <definicion>Elemento químico que la planta necesita en grandes cantidades (Nitrógeno, Fósforo, Potasio).</definicion>
+    </termino>
+    <termino>
+        <nombre>Maleza</nombre>
+        <definicion>Planta silvestre que crece de forma indeseada en campos cultivados o macetas compitiendo por recursos.</definicion>
+    </termino>
+    <termino>
+        <nombre>Micorriza</nombre>
+        <definicion>Asociación simbiótica beneficiosa entre las raíces de una planta y ciertos hongos del suelo.</definicion>
+    </termino>
+    <termino>
+        <nombre>Micronutriente</nombre>
+        <definicion>Elemento necesario para la planta en cantidades muy pequeñas (Hierro, Zinc, Cobre).</definicion>
+    </termino>
+    <termino>
+        <nombre>Mildiu</nombre>
+        <definicion>Enfermedad causada por un hongo que produce manchas amarillentas en las hojas y una pelusa grisácea por el envés.</definicion>
+    </termino>
+    <termino>
+        <nombre>Monocotiledónea</nombre>
+        <definicion>Planta que al germinar solo desarrolla una hoja inicial (un cotiledón), como las gramíneas o palmeras.</definicion>
+    </termino>
+    <termino>
+        <nombre>Mulch</nombre>
+        <definicion>Capa de material (corteza, paja) que se coloca sobre el suelo para conservar la humedad y evitar malezas.</definicion>
+    </termino>
+    <termino>
+        <nombre>Nematodo</nombre>
+        <definicion>Gusano microscópico del suelo; algunos son beneficiosos, pero otros atacan las raíces de las plantas.</definicion>
+    </termino>
+    <termino>
+        <nombre>Nudo</nombre>
+        <definicion>Punto del tallo donde nacen las hojas o ramas.</definicion>
+    </termino>
+    <termino>
+        <nombre>Oídio</nombre>
+        <definicion>Enfermedad fúngica muy común que cubre las hojas con un polvo blanco similar a la ceniza.</definicion>
+    </termino>
+    <termino>
+        <nombre>Orquídea</nombre>
+        <definicion>Familia de plantas de flores exóticas y complejas, muchas de las cuales crecen como epífitas en los árboles.</definicion>
+    </termino>
+    <termino>
+        <nombre>Pecíolo</nombre>
+        <definicion>Rabillo o segmento que une la lámina de una hoja con el tallo de la planta.</definicion>
+    </termino>
+    <termino>
+        <nombre>Perenne</nombre>
+        <definicion>Planta que vive durante más de dos años y mantiene sus hojas verdes durante todas las estaciones.</definicion>
+    </termino>
+    <termino>
+        <nombre>Perlita</nombre>
+        <definicion>Mineral volcánico expandido, blanco y muy ligero, que se mezcla en el sustrato para mejorar el drenaje.</definicion>
+    </termino>
+    <termino>
+        <nombre>pH</nombre>
+        <definicion>Medida que indica el nivel de acidez o alcalinidad del suelo, vital para la absorción de nutrientes.</definicion>
+    </termino>
+    <termino>
+        <nombre>Poda</nombre>
+        <definicion>Corte selectivo de ramas para dar forma a la planta, mejorar su floración o retirar partes secas.</definicion>
+    </termino>
+    <termino>
+        <nombre>Polinización</nombre>
+        <definicion>Transferencia de polen desde el estambre (masculino) hasta el estigma (femenino) de la flor.</definicion>
+    </termino>
+    <termino>
+        <nombre>Pulgón</nombre>
+        <definicion>Insecto diminuto de diversos colores que se agrupa en los brotes tiernos para succionar la savia de la planta.</definicion>
+    </termino>
+    <termino>
+        <nombre>Rizoma</nombre>
+        <definicion>Tallo subterráneo grueso que crece horizontalmente, almacenando reservas y emitiendo nuevos brotes (ej. jengibre).</definicion>
+    </termino>
+    <termino>
+        <nombre>Semillero</nombre>
+        <definicion>Recipiente o espacio preparado con condiciones óptimas para plantar semillas y lograr su germinación.</definicion>
+    </termino>
+    <termino>
+        <nombre>Suculenta</nombre>
+        <definicion>Planta con hojas o tallos gruesos y carnosos adaptados para almacenar grandes cantidades de agua.</definicion>
+    </termino>
+    <termino>
+        <nombre>Sustrato</nombre>
+        <definicion>Material sólido distinto de la tierra natural que sirve de soporte a la planta y permite el desarrollo de sus raíces.</definicion>
+    </termino>
+    <termino>
+        <nombre>Trasplante</nombre>
+        <definicion>Acción de mover una planta de una maceta o lugar a otro recipiente más grande o al suelo definitivo.</definicion>
+    </termino>
+    <termino>
+        <nombre>Turba</nombre>
+        <definicion>Material orgánico oscuro y esponjoso derivado de la descomposición vegetal, muy usado como base de sustratos.</definicion>
+    </termino>
+    <termino>
+        <nombre>Vermiculita</nombre>
+        <definicion>Mineral en forma de escamas brillantes que se añade al sustrato para retener humedad y nutrientes.</definicion>
     </termino>
 </glosario>
