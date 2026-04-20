@@ -8,7 +8,7 @@
                     
                     body {
                         font-family: 'Montserrat', sans-serif;
-                        background-color: #f9fdf9; /* Un verde súper clarito */
+                        background-color: #f9fdf9;
                         color: #333;
                         max-width: 800px;
                         margin: 0 auto;
@@ -17,7 +17,7 @@
                     
                     h1 {
                         text-align: center;
-                        color: #2E7D32; /* Tu verde oscuro */
+                        color: #2E7D32;
                         border-bottom: 2px solid #2E7D32;
                         padding-bottom: 10px;
                         margin-bottom: 40px;
@@ -25,7 +25,7 @@
                     
                     .termino-box {
                         background-color: white;
-                        border-left: 5px solid #4CAF50; /* Un verde vivo */
+                        border-left: 5px solid #4CAF50;
                         padding: 20px;
                         margin-bottom: 20px;
                         border-radius: 0 8px 8px 0;

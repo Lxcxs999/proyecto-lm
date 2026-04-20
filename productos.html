@@ -23,14 +23,84 @@
         </div>
 
         <div class="nav-cart">
-            <img src="images/user.png" alt="Usuario" class="user">
+            <a href="login.html"><img src="images/user.png" alt="Usuario" class="user"></a>
             <img src="images/shopping-bag.png" alt="Carrito" class="cart">
         </div>
     </nav>
     <div class="products-wrapper">
         <div class="filter-bar">
+            <div class="filter-bar-section">
+                <p class="filter-bar-title">Tipo de planta</p>
+                <label class="filter-bar-option">
+                <div class="filter-bar-dot"><svg width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4l2.5 2.5L9 1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                Interior
+                </label>
+                <label class="filter-bar-option">
+                <div class="filter-bar-dot"><svg width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4l2.5 2.5L9 1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                Exterior
+                </label>
+                <label class="filter-bar-option">
+                <div class="filter-bar-dot"><svg width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4l2.5 2.5L9 1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                Terrario
+                </label>
+            </div>
 
-        </div>
+            <hr class="filter-bar-divider">
+
+            <div class="filter-bar-section">
+                <p class="filter-bar-title">Categoría</p>
+                <div>
+                <button class="filter-bar-tag">Flores</button>
+                <button class="filter-bar-tag">Cactus</button>
+                <button class="filter-bar-tag">Árboles</button>
+                <button class="filter-bar-tag">Aromáticas</button>
+                <button class="filter-bar-tag">Suculentas</button>
+                </div>
+            </div>
+
+            <hr class="filter-bar-divider">
+
+            <div class="filter-bar-section">
+                <p class="filter-bar-title">Precio máximo</p>
+                <div class="filter-bar-range-wrap">
+                <input type="range" min="5" max="150" value="80" step="1">
+                <span class="filter-bar-range-val" id="priceVal">80€</span>
+                </div>
+            </div>
+
+            <hr class="filter-bar-divider">
+
+            <div class="filter-bar-section">
+                <p class="filter-bar-title">Nivel de cuidado</p>
+                <label class="filter-bar-option">
+                <div class="filter-bar-dot"></div>
+                Fácil
+                </label>
+                <label class="filter-bar-option">
+                <div class="filter-bar-dot"></div>
+                Moderado
+                </label>
+                <label class="filter-bar-option">
+                <div class="filter-bar-dot"></svg></div>
+                Avanzado
+                </label>
+            </div>
+
+            <hr class="filter-bar-divider">
+
+            <div class="filter-bar-section">
+                <p class="filter-bar-title">Valoración mínima</p>
+                <div class="filter-bar-stars">
+                <span class="filter-bar-star">★</span>
+                <span class="filter-bar-star">★</span>
+                <span class="filter-bar-star">★</span>
+                <span class="filter-bar-star">★</span>
+                <span class="filter-bar-star">★</span>
+                </div>
+            </div>
+
+            <button class="filter-bar-reset">Limpiar filtros</button>
+    </div>
         <div class="products-container">
             <div class="product-item">
                     <img src="images/redrose.png" alt="red rose" class="product-image">
