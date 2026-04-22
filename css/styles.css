@@ -293,9 +293,6 @@ font-size: clamp(1.2rem, 2vw, 1.6rem);
   font-family: 'Lato', sans-serif;
 }
 
-.checks-enfermeria-index{
-}
-
 .checks-enfermeria-index h2{
   margin-top: 5%;
   font-weight: 600;
@@ -399,6 +396,8 @@ grid-template-rows: auto 1fr auto;
     position: sticky;
     top: 90px;
     align-self: flex-start;
+    overflow-y: auto;
+    max-height: calc(100vh - 110px);  
 }
 
 .filter-bar h1{
@@ -411,6 +410,209 @@ grid-template-rows: auto 1fr auto;
 
 .filter-group ul{
     list-style: none;
+}
+
+/* Secciones del filter bar */
+.filter-bar-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.filter-bar-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #103f13;
+    margin: 0;
+    text-align: left;
+}
+
+/* Opciones con checkbox personalizado */
+.filter-bar-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.filter-bar-option:hover {
+    background-color: rgba(34, 197, 94, 0.1);
+}
+
+.filter-bar-option input[type="checkbox"] {
+    display: none;
+}
+
+.filter-bar-dot {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #22c55e;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+}
+
+.filter-bar-option input[type="checkbox"]:checked ~ .filter-bar-dot,
+.filter-bar-option:has(input[type="checkbox"]:checked) .filter-bar-dot {
+    background-color: #22c55e;
+    border-color: #16a34a;
+}
+
+/* Botones tipo tag para categorías */
+.filter-bar-tag {
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: #333;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    margin: 4px;
+}
+
+.filter-bar-tag:hover {
+    border-color: #22c55e;
+    background-color: #f0fdf4;
+    color: #22c55e;
+}
+
+.filter-bar-tag:active,
+.filter-bar-tag.active {
+    background-color: #22c55e;
+    border-color: #22c55e;
+    color: white;
+}
+
+/* Range slider para precio */
+.filter-bar-range-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.filter-bar-range-wrap input[type="range"] {
+    width: 100%;
+    height: 6px;
+    border-radius: 3px;
+    background: linear-gradient(to right, #22c55e 0%, #22c55e 50%, #ddd 50%, #ddd 100%);
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.filter-bar-range-wrap input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #22c55e;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(34, 197, 94, 0.3);
+    transition: all 0.2s ease;
+}
+
+.filter-bar-range-wrap input[type="range"]::-webkit-slider-thumb:hover {
+    width: 24px;
+    height: 24px;
+    box-shadow: 0 2px 8px rgba(34, 197, 94, 0.5);
+}
+
+.filter-bar-range-wrap input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #22c55e;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 5px rgba(34, 197, 94, 0.3);
+    transition: all 0.2s ease;
+}
+
+.filter-bar-range-wrap input[type="range"]::-moz-range-thumb:hover {
+    width: 24px;
+    height: 24px;
+    box-shadow: 0 2px 8px rgba(34, 197, 94, 0.5);
+}
+
+.filter-bar-range-val {
+    display: inline-block;
+    background-color: #f0fdf4;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-weight: 600;
+    color: #22c55e;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+/* Divisor */
+.filter-bar-divider {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 8px 0;
+}
+
+/* Estrellas de valoración */
+.filter-bar-stars {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.filter-bar-star {
+    font-size: 1.5rem;
+    color: #ddd;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+/* Al hacer hover en una estrella, se ilumina ella y todas las anteriores (que están después en row-reverse) */
+.filter-bar-star:hover,
+.filter-bar-star:hover ~ .filter-bar-star,
+.filter-bar-star.active {
+    color: #fbbf24;
+}
+
+/* Botón reset */
+.filter-bar-reset {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #fee2e2;
+    color: #dc2626;
+    border: 1px solid #fca5a5;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+}
+
+.filter-bar-reset:hover {
+    background-color: #fecaca;
+    border-color: #f87171;
+    box-shadow: 0 2px 8px rgba(220, 38, 38, 0.2);
+}
+
+.filter-bar-reset:active {
+    background-color: #fca5a5;
+    transform: translateY(5px);
 }
 
 .products-container{
@@ -426,11 +628,11 @@ grid-template-rows: auto 1fr auto;
 .product-item{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: flex-start;
     gap: 20px;
     max-width:auto;
+    width: 100%;
     height: 100%;
-    position: relative;
     border: 1px solid #ddd;
     border-radius: 10%;
     padding: 20px;
@@ -438,12 +640,116 @@ grid-template-rows: auto 1fr auto;
     background-size: cover;
 }
 
+.product-title{
+    font-size: clamp(0.8rem, 1.4vw, 1.3rem);
+    font-weight: 600;
+    color: #103f13;
+}
+
+.product-description{
+    font-size: clamp(0.5rem, 0.8vw, 0.9rem);
+    color: #242424;
+}
+
+.product-type{
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+    background-color: rgba(203, 255, 177, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    width: auto;
+}
+
+.product-type-tag > img{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.precio{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #092914b9;
+}
+
+.product-tag{
+    padding: 5px 10px;
+    border: 1px solid #22c55e;
+    background-color: #f0fdf4;
+    color: #22c55e;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
 .product-image{
     width: auto;
     max-height: 150px;
     border-radius: 50%;
+    align-self: center;
+    justify-self: center;
 }
 
+.buttons-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+/* Estilos para botones de productos */
+.detalles-button {
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 1px solid #c0c0c0;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 5px;
+}
+
+.detalles-button:hover {
+    background-color: #e8e8e8;
+    border-color: #4CAF50;
+    color: #103f13;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
+}
+
+.detalles-button:active {
+    background-color: #d0d0d0;
+    transform: translateY(2px);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 3px;
+}
+
+.cart-button {
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 1px solid #4CAF50;
+    background-color: #ffffff;
+    color: #4CAF50;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 5px;
+}
+
+.cart-button:hover {
+    background-color: #4CAF50;
+    color: #ffffff;
+    box-shadow: rgba(76, 175, 80, 0.3) 0px 4px 12px;
+}
+
+.cart-button:active {
+    background-color: #2E7D32;
+    border-color: #2E7D32;
+    transform: translateY(2px);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 3px;
+}
 
 /*Login form*/
 
@@ -588,3 +894,15 @@ grid-template-rows: auto 1fr auto;
   font-size: 18px;
   margin-bottom: 1px;
 }
+
+/* Seccion de enfermeria */
+
+.enfermeria-banner{
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+

@@ -32,15 +32,15 @@
             <div class="filter-bar-section">
                 <p class="filter-bar-title">Tipo de planta</p>
                 <label class="filter-bar-option">
-                <div class="filter-bar-dot"><svg width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4l2.5 2.5L9 1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                <div class="filter-bar-dot"><input type="checkbox"></div>
                 Interior
                 </label>
                 <label class="filter-bar-option">
-                <div class="filter-bar-dot"><svg width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4l2.5 2.5L9 1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                <div class="filter-bar-dot"><input type="checkbox"></div>
                 Exterior
                 </label>
                 <label class="filter-bar-option">
-                <div class="filter-bar-dot"><svg width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4l2.5 2.5L9 1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                <div class="filter-bar-dot"><input type="checkbox"></div>
                 Terrario
                 </label>
             </div>
@@ -73,15 +73,15 @@
             <div class="filter-bar-section">
                 <p class="filter-bar-title">Nivel de cuidado</p>
                 <label class="filter-bar-option">
-                <div class="filter-bar-dot"></div>
+                <div class="filter-bar-dot"><input type="checkbox"></button></div>
                 Fácil
                 </label>
                 <label class="filter-bar-option">
-                <div class="filter-bar-dot"></div>
+                <div class="filter-bar-dot"><input type="checkbox"></div>
                 Moderado
                 </label>
                 <label class="filter-bar-option">
-                <div class="filter-bar-dot"></svg></div>
+                <div class="filter-bar-dot"><input type="checkbox"></div>
                 Avanzado
                 </label>
             </div>
@@ -102,98 +102,341 @@
             <button class="filter-bar-reset">Limpiar filtros</button>
     </div>
         <div class="products-container">
-            <div class="product-item">
+                <div class="product-item">
                     <img src="images/redrose.png" alt="red rose" class="product-image">
-                    <h2>Rosa Roja</h2>
-                    <p>Flores rojas de alta calidad con aroma natural</p>
-                    <button class="buy-button">Comprar</button>
+                    <p class="product-title">Rosa Roja</p>
+                    <p class="product-description">Flores rojas de alta calidad con aroma natural</p>
+                    <div class="product-type">
+                        <span class="product-type-tag"><img src="images/home.png" alt="" >Interior</span>
+                        <span class="product-type-tag"><img src="images/sun.png" alt="" >Exterior</span>
+                    </div>
+                    <p class="precio">9.99€</p>
+                    <div class="buttons-wrapper">
+                        <button class="detalles-button">Ver detalles</button>
+                        <button class="cart-button">Añadir al carrito</button>
+                    </div>
                 </div>
                 <div class="product-item">
                     <img src="images/purple_plant.png" alt="purple plant" class="product-image">
-                    <h2>Planta Púrpura</h2>
-                    <p>Planta ornamental para interiores, luz moderada</p>
-                    <button class="buy-button">Comprar</button>
+                    <p class="product-title">Planta Púrpura</p>
+                    <p class="product-description">Planta ornamental para interiores, luz moderada</p>
+                    <div class="product-type">
+                        <span class="product-type-tag"><img src="images/home.png" alt="" >Interior</span>
+                        <span class="product-type-tag"><img src="images/sun.png" alt="" >Exterior</span>
+                    </div>
+                    <p class="precio">12.99€</p>
+                    <div class="buttons-wrapper">
+                        <button class="detalles-button">Ver detalles</button>
+                        <button class="cart-button">Añadir al carrito</button>
+                    </div>
                 </div>
                 <div class="product-item">
                     <img src="images/white_rose.jpg" alt="white rose" class="product-image">
-                    <h2>Rosa Blanca</h2>
-                    <p>Elegante para bodas y eventos especiales</p>
-                    <button class="buy-button">Comprar</button>
+                    <p class="product-title">Rosa Blanca</p>
+                    <p class="product-description">Elegante para bodas y eventos especiales</p>
+                    <div class="product-type">
+                        <span class="product-type-tag"><img src="images/home.png" alt="" >Interior</span>
+                        <span class="product-type-tag"><img src="images/sun.png" alt="" >Exterior</span>
+                    </div>
+                    <p class="precio">14.99€</p>
+                    <div class="buttons-wrapper">
+                        <button class="detalles-button">Ver detalles</button>
+                        <button class="cart-button">Añadir al carrito</button>
+                    </div>
                 </div>
                 <div class="product-item">
                     <img src="images/orange.jpg" alt="orange daisy" class="product-image">
-                    <h2>Margarita Naranja</h2>
-                    <p>Pétalos vibrantes y alegres para decorar</p>
-                    <button class="buy-button">Comprar</button>
-                </div><div class="product-item">
+                    <p class="product-title">Margarita Naranja</p>
+                    <p class="product-description">Pétalos vibrantes y alegres para decorar</p>
+                    <div class="product-type">
+                        <span class="product-type-tag"><img src="images/home.png" alt="" >Interior</span>
+                        <span class="product-type-tag"><img src="images/sun.png" alt="" >Exterior</span>
+                    </div>
+                    <p class="precio">8.99€</p>
+                    <div class="buttons-wrapper">
+                        <button class="detalles-button">Ver detalles</button>
+                        <button class="cart-button">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="product-item">
                     <img src="images/redrose.png" alt="red rose" class="product-image">
-                    <h2>Rosa Roja</h2>
-                    <p>Flores rojas de alta calidad con aroma natural</p>
-                    <button class="buy-button">Comprar</button>
+                    <p class="product-title">Rosa Roja</p>
+                    <p class="product-description">Flores rojas de alta calidad con aroma natural</p>
+                    <div class="product-type">
+                        <span class="product-type-tag"><img src="images/home.png" alt="" >Interior</span>
+                        <span class="product-type-tag"><img src="images/sun.png" alt="" >Exterior</span>
+                    </div>
+                    <p class="precio">9.99€</p>
+                    <div class="buttons-wrapper">
+                        <button class="detalles-button">Ver detalles</button>
+                        <button class="cart-button">Añadir al carrito</button>
+                    </div>
                 </div>
                 <div class="product-item">
                     <img src="images/purple_plant.png" alt="purple plant" class="product-image">
-                    <h2>Planta Púrpura</h2>
-                    <p>Planta ornamental para interiores, luz moderada</p>
-                    <button class="buy-button">Comprar</button>
+                    <p class="product-title">Planta Púrpura</p>
+                    <p class="product-description">Planta ornamental para interiores, luz moderada</p>
+                    <div class="product-type">
+                        <span class="product-type-tag"><img src="images/home.png" alt="" >Interior</span>
+                        <span class="product-type-tag"><img src="images/sun.png" alt="" >Exterior</span>
+                    </div>
+                    <p class="precio">12.99€</p>
+                    <div class="buttons-wrapper">
+                        <button class="detalles-button">Ver detalles</button>
+                        <button class="cart-button">Añadir al carrito</button>
+                    </div>
                 </div>
                 <div class="product-item">
                     <img src="images/white_rose.jpg" alt="white rose" class="product-image">
-                    <h2>Rosa Blanca</h2>
-                    <p>Elegante para bodas y eventos especiales</p>
-                    <button class="buy-button">Comprar</button>
+                    <p class="product-title">Rosa Blanca</p>
+                    <p class="product-description">Elegante para bodas y eventos especiales</p>
+                    <div class="product-type">
+                        <span class="product-type-tag"><img src="images/home.png" alt="" >Interior</span>
+                        <span class="product-type-tag"><img src="images/sun.png" alt="" >Exterior</span>
+                    </div>
+                    <p class="precio">14.99€</p>
+                    <div class="buttons-wrapper">
+                        <button class="detalles-button">Ver detalles</button>
+                        <button class="cart-button">Añadir al carrito</button>
+                    </div>
                 </div>
                 <div class="product-item">
                     <img src="images/orange.jpg" alt="orange daisy" class="product-image">
-                    <h2>Margarita Naranja</h2>
-                    <p>Pétalos vibrantes y alegres para decorar</p>
-                    <button class="buy-button">Comprar</button>
-                </div><div class="product-item">
+                    <p class="product-title">Margarita Naranja</p>
+                    <p class="product-description">Pétalos vibrantes y alegres para decorar</p>
+                    <div class="product-type">
+                        <span class="product-type-tag"><img src="images/home.png" alt="" >Interior</span>
+                        <span class="product-type-tag"><img src="images/sun.png" alt="" >Exterior</span>
+                    </div>
+                    <p class="precio">8.99€</p>
+                    <div class="buttons-wrapper">
+                        <button class="detalles-button">Ver detalles</button>
+                        <button class="cart-button">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="product-item">
                     <img src="images/redrose.png" alt="red rose" class="product-image">
-                    <h2>Rosa Roja</h2>
-                    <p>Flores rojas de alta calidad con aroma natural</p>
-                    <button class="buy-button">Comprar</button>
+                    <p class="product-title">Rosa Roja</p>
+                    <p class="product-description">Flores rojas de alta calidad con aroma natural</p>
+                    <div class="product-type">
+                        <span class="product-type-tag"><img src="images/home.png" alt="" >Interior</span>
+                        <span class="product-type-tag"><img src="images/sun.png" alt="" >Exterior</span>
+                    </div>
+                    <p class="precio">9.99€</p>
+                    <div class="buttons-wrapper">
+                        <button class="detalles-button">Ver detalles</button>
+                        <button class="cart-button">Añadir al carrito</button>
+                    </div>
                 </div>
                 <div class="product-item">
                     <img src="images/purple_plant.png" alt="purple plant" class="product-image">
-                    <h2>Planta Púrpura</h2>
-                    <p>Planta ornamental para interiores, luz moderada</p>
-                    <button class="buy-button">Comprar</button>
+                    <p class="product-title">Planta Púrpura</p>
+                    <p class="product-description">Planta ornamental para interiores, luz moderada</p>
+                    <div class="product-type">
+                        <span class="product-type-tag"><img src="images/home.png" alt="" >Interior</span>
+                        <span class="product-type-tag"><img src="images/sun.png" alt="" >Exterior</span>
+                    </div>
+                    <p class="precio">12.99€</p>
+                    <div class="buttons-wrapper">
+                        <button class="detalles-button">Ver detalles</button>
+                        <button class="cart-button">Añadir al carrito</button>
+                    </div>
                 </div>
                 <div class="product-item">
                     <img src="images/white_rose.jpg" alt="white rose" class="product-image">
-                    <h2>Rosa Blanca</h2>
-                    <p>Elegante para bodas y eventos especiales</p>
-                    <button class="buy-button">Comprar</button>
+                    <p class="product-title">Rosa Blanca</p>
+                    <p class="product-description">Elegante para bodas y eventos especiales</p>
+                    <div class="product-type">
+                        <span class="product-type-tag"><img src="images/home.png" alt="" >Interior</span>
+                        <span class="product-type-tag"><img src="images/sun.png" alt="" >Exterior</span>
+                    </div>
+                    <p class="precio">14.99€</p>
+                    <div class="buttons-wrapper">
+                        <button class="detalles-button">Ver detalles</button>
+                        <button class="cart-button">Añadir al carrito</button>
+                    </div>
                 </div>
                 <div class="product-item">
                     <img src="images/orange.jpg" alt="orange daisy" class="product-image">
-                    <h2>Margarita Naranja</h2>
-                    <p>Pétalos vibrantes y alegres para decorar</p>
-                    <button class="buy-button">Comprar</button>
-                </div><div class="product-item">
+                    <p class="product-title">Margarita Naranja</p>
+                    <p class="product-description">Pétalos vibrantes y alegres para decorar</p>
+                    <div class="product-type">
+                        <span class="product-type-tag"><img src="images/home.png" alt="" >Interior</span>
+                        <span class="product-type-tag"><img src="images/sun.png" alt="" >Exterior</span>
+                    </div>
+                    <p class="precio">8.99€</p>
+                    <div class="buttons-wrapper">
+                        <button class="detalles-button">Ver detalles</button>
+                        <button class="cart-button">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="product-item">
                     <img src="images/redrose.png" alt="red rose" class="product-image">
-                    <h2>Rosa Roja</h2>
-                    <p>Flores rojas de alta calidad con aroma natural</p>
-                    <button class="buy-button">Comprar</button>
+                    <p class="product-title">Rosa Roja</p>
+                    <p class="product-description">Flores rojas de alta calidad con aroma natural</p>
+                    <div class="product-type">
+                        <span class="product-type-tag"><img src="images/home.png" alt="" >Interior</span>
+                        <span class="product-type-tag"><img src="images/sun.png" alt="" >Exterior</span>
+                    </div>
+                    <p class="precio">9.99€</p>
+                    <div class="buttons-wrapper">
+                        <button class="detalles-button">Ver detalles</button>
+                        <button class="cart-button">Añadir al carrito</button>
+                    </div>
                 </div>
                 <div class="product-item">
                     <img src="images/purple_plant.png" alt="purple plant" class="product-image">
-                    <h2>Planta Púrpura</h2>
-                    <p>Planta ornamental para interiores, luz moderada</p>
-                    <button class="buy-button">Comprar</button>
+                    <p class="product-title">Planta Púrpura</p>
+                    <p class="product-description">Planta ornamental para interiores, luz moderada</p>
+                    <div class="product-type">
+                        <span class="product-type-tag"><img src="images/home.png" alt="" >Interior</span>
+                        <span class="product-type-tag"><img src="images/sun.png" alt="" >Exterior</span>
+                    </div>
+                    <p class="precio">12.99€</p>
+                    <div class="buttons-wrapper">
+                        <button class="detalles-button">Ver detalles</button>
+                        <button class="cart-button">Añadir al carrito</button>
+                    </div>
                 </div>
                 <div class="product-item">
                     <img src="images/white_rose.jpg" alt="white rose" class="product-image">
-                    <h2>Rosa Blanca</h2>
-                    <p>Elegante para bodas y eventos especiales</p>
-                    <button class="buy-button">Comprar</button>
+                    <p class="product-title">Rosa Blanca</p>
+                    <p class="product-description">Elegante para bodas y eventos especiales</p>
+                    <div class="product-type">
+                        <span class="product-type-tag"><img src="images/home.png" alt="" >Interior</span>
+                        <span class="product-type-tag"><img src="images/sun.png" alt="" >Exterior</span>
+                    </div>
+                    <p class="precio">14.99€</p>
+                    <div class="buttons-wrapper">
+                        <button class="detalles-button">Ver detalles</button>
+                        <button class="cart-button">Añadir al carrito</button>
+                    </div>
                 </div>
                 <div class="product-item">
                     <img src="images/orange.jpg" alt="orange daisy" class="product-image">
-                    <h2>Margarita Naranja</h2>
-                    <p>Pétalos vibrantes y alegres para decorar</p>
-                    <button class="buy-button">Comprar</button>
+                    <p class="product-title">Margarita Naranja</p>
+                    <p class="product-description">Pétalos vibrantes y alegres para decorar</p>
+                    <div class="product-type">
+                        <span class="product-type-tag"><img src="images/home.png" alt="" >Interior</span>
+                        <span class="product-type-tag"><img src="images/sun.png" alt="" >Exterior</span>
+                    </div>
+                    <p class="precio">8.99€</p>
+                    <div class="buttons-wrapper">
+                        <button class="detalles-button">Ver detalles</button>
+                        <button class="cart-button">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="images/redrose.png" alt="red rose" class="product-image">
+                    <p class="product-title">Rosa Roja</p>
+                    <p class="product-description">Flores rojas de alta calidad con aroma natural</p>
+                    <div class="product-type">
+                        <span class="product-type-tag"><img src="images/home.png" alt="" >Interior</span>
+                        <span class="product-type-tag"><img src="images/sun.png" alt="" >Exterior</span>
+                    </div>
+                    <p class="precio">9.99€</p>
+                    <div class="buttons-wrapper">
+                        <button class="detalles-button">Ver detalles</button>
+                        <button class="cart-button">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="images/purple_plant.png" alt="purple plant" class="product-image">
+                    <p class="product-title">Planta Púrpura</p>
+                    <p class="product-description">Planta ornamental para interiores, luz moderada</p>
+                    <div class="product-type">
+                        <span class="product-type-tag"><img src="images/home.png" alt="" >Interior</span>
+                        <span class="product-type-tag"><img src="images/sun.png" alt="" >Exterior</span>
+                    </div>
+                    <p class="precio">12.99€</p>
+                    <div class="buttons-wrapper">
+                        <button class="detalles-button">Ver detalles</button>
+                        <button class="cart-button">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="images/white_rose.jpg" alt="white rose" class="product-image">
+                    <p class="product-title">Rosa Blanca</p>
+                    <p class="product-description">Elegante para bodas y eventos especiales</p>
+                    <div class="product-type">
+                        <span class="product-type-tag"><img src="images/home.png" alt="" >Interior</span>
+                        <span class="product-type-tag"><img src="images/sun.png" alt="" >Exterior</span>
+                    </div>
+                    <p class="precio">14.99€</p>
+                    <div class="buttons-wrapper">
+                        <button class="detalles-button">Ver detalles</button>
+                        <button class="cart-button">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="images/orange.jpg" alt="orange daisy" class="product-image">
+                    <p class="product-title">Margarita Naranja</p>
+                    <p class="product-description">Pétalos vibrantes y alegres para decorar</p>
+                    <div class="product-type">
+                        <span class="product-type-tag"><img src="images/home.png" alt="" >Interior</span>
+                        <span class="product-type-tag"><img src="images/sun.png" alt="" >Exterior</span>
+                    </div>
+                    <p class="precio">8.99€</p>
+                    <div class="buttons-wrapper">
+                        <button class="detalles-button">Ver detalles</button>
+                        <button class="cart-button">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="images/redrose.png" alt="red rose" class="product-image">
+                    <p class="product-title">Rosa Roja</p>
+                    <p class="product-description">Flores rojas de alta calidad con aroma natural</p>
+                    <div class="product-type">
+                        <span class="product-type-tag"><img src="images/home.png" alt="" >Interior</span>
+                        <span class="product-type-tag"><img src="images/sun.png" alt="" >Exterior</span>
+                    </div>
+                    <p class="precio">9.99€</p>
+                    <div class="buttons-wrapper">
+                        <button class="detalles-button">Ver detalles</button>
+                        <button class="cart-button">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="images/purple_plant.png" alt="purple plant" class="product-image">
+                    <p class="product-title">Planta Púrpura</p>
+                    <p class="product-description">Planta ornamental para interiores, luz moderada</p>
+                    <div class="product-type">
+                        <span class="product-type-tag"><img src="images/home.png" alt="" >Interior</span>
+                        <span class="product-type-tag"><img src="images/sun.png" alt="" >Exterior</span>
+                    </div>
+                    <p class="precio">12.99€</p>
+                    <div class="buttons-wrapper">
+                        <button class="detalles-button">Ver detalles</button>
+                        <button class="cart-button">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="images/white_rose.jpg" alt="white rose" class="product-image">
+                    <p class="product-title">Rosa Blanca</p>
+                    <p class="product-description">Elegante para bodas y eventos especiales</p>
+                    <div class="product-type">
+                        <span class="product-type-tag"><img src="images/home.png" alt="" >Interior</span>
+                        <span class="product-type-tag"><img src="images/sun.png" alt="" >Exterior</span>
+                    </div>
+                    <p class="precio">14.99€</p>
+                    <div class="buttons-wrapper">
+                        <button class="detalles-button">Ver detalles</button>
+                        <button class="cart-button">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="images/orange.jpg" alt="orange daisy" class="product-image">
+                    <p class="product-title">Margarita Naranja</p>
+                    <p class="product-description">Pétalos vibrantes y alegres para decorar</p>
+                    <div class="product-type">
+                        <span class="product-type-tag"><img src="images/home.png" alt="" >Interior</span>
+                        <span class="product-type-tag"><img src="images/sun.png" alt="" >Exterior</span>
+                    </div>
+                    <p class="precio">8.99€</p>
+                    <div class="buttons-wrapper">
+                        <button class="detalles-button">Ver detalles</button>
+                        <button class="cart-button">Añadir al carrito</button>
+                    </div>
                 </div>
         </div>
     </div>
