@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE glosario SYSTEM "glosario.dtd">
+<!-- <!DOCTYPE glosario SYSTEM "glosario.dtd"> -->
 <?xml-stylesheet type="text/xsl" href="glosario.xsl"?>
 <glosario>
     <termino>
